@@ -1,0 +1,154 @@
+body {
+  font-family: "montserrat";
+}
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+.navbar-nav {
+  margin-left: auto;
+}
+h1 {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.container-fluid {
+  padding: 3% 15% 5%;
+}
+
+/* navigation bar */
+.navbar {
+  padding-bottom: 0 0 5.5rem;
+}
+.navbar-item {
+  padding: 0 18px;
+}
+.navbar-link {
+  font-size: 1.2rem;
+  font-weight: light;
+}
+.navbar-brand {
+  font-family: "ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.Download-btn {
+  margin: 5% 5% 5% 0%;
+}
+
+.title-img {
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+  margin-top: 4%;
+  right: 22%;
+}
+
+/* features section */
+h3 {
+  font-family: montserrat-bold;
+}
+p {
+  color: #8f8f8f;
+}
+#features {
+  background-color: #fff;
+  padding: 7% 15%;
+  position: relative;
+}
+.feature {
+  padding: 4.5%;
+}
+.logo {
+  margin-bottom: 1rem;
+  color: #ef8172;
+  margin-left: 20%;
+  size: 20px;
+}
+.logo:hover {
+  color: #ff4c68;
+}
+
+/* testimonial */
+
+h2 {
+  font-family: montserrat-bold;
+}
+#testimonials {
+  background-color: #ff4c68;
+
+  text-align: center;
+  color: #fff;
+}
+.test-img {
+  width: 10%;
+  border-radius: 5rem;
+  margin: 20px;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#press {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 3%;
+}
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing section */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+.pricing-col {
+  padding: 3% 2%;
+}
+
+/* call to action */
+#cta {
+  text-align: center;
+
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 7% 15%;
+}
+.cta-heading {
+  font-family: "Montserrat-Black";
+  font-size: 4.5rem;
+  line-height: 1.5;
+}
+.call-btn {
+  margin: 3% 1%;
+}
+#footer {
+  text-align: center;
+  background-color: #fff;
+  font-family: montserrat;
+}
+
+.footer-i {
+  margin: 3% 1% 1%;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  #features {
+    text-align: center;
+  }
+  .logo {
+    margin-left: 10px;
+  }
+  .title-img {
+    width: 60%;
+    position: static;
+    transform: rotate(0);
+  }
+}
